@@ -6,7 +6,7 @@ const Navbar = () => {
         <li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Home</li>
         <li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">My-Bookings</li>
         <li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Blogs</li>
-        <li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li>
+        <li className="font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li>
     </>
     const linksDropdown = <>
         <li className="m-2 opacity-70 cursor-pointer hover:text-[#176AE5]">Home</li>
@@ -15,10 +15,10 @@ const Navbar = () => {
         <li className="m-2 opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li>
     </>
     return (
-        <div className="navbar w-11/12 mx-auto py-4">
+        <div className="navbar max-w-7xl mx-auto py-4 mb-2">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-[#176AE5]">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                     </div>
                     <ul
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-primary font-semibold text-lg p-5  bg-[#176AE5] text-[#FFFFFF] rounded-3xl">Emergency</a>
+                <a className="btn btn-primary font-medium text-lg px-5 bg-[#176AE5] text-[#FFFFFF] rounded-3xl">Emergency</a>
             </div>
         </div>
     );
