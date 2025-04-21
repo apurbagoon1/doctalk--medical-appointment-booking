@@ -9,10 +9,10 @@ const Navbar = () => {
         <li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li>
     </>
     const linksDropdown = <>
-        <li className="m-2 opacity-70 cursor-pointer text-[#176AE5]">Home</li>
-        <li className="m-2 opacity-70 cursor-pointer text-[#176AE5]">My-Bookings</li>
-        <li className="m-2 opacity-70 cursor-pointer text-[#176AE5]">Blogs</li>
-        <li className="m-2 opacity-70 cursor-pointer text-[#176AE5]">Contact Us</li>
+        <li className="m-2 opacity-70 cursor-pointer hover:text-[#176AE5]">Home</li>
+        <li className="m-2 opacity-70 cursor-pointer hover:text-[#176AE5]">My-Bookings</li>
+        <li className="m-2 opacity-70 cursor-pointer hover:text-[#176AE5]">Blogs</li>
+        <li className="m-2 opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li>
     </>
     return (
         <div className="navbar w-11/12 mx-auto py-4">
