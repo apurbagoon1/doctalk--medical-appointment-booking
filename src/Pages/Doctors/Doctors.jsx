@@ -23,7 +23,7 @@ const Doctors = ({ data }) => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 gap-6'>
                     {
                         displayedDoctors.map((doctor) => (
-                            <Doctor key={doctor.registration_number} doctor={doctor} />
+                            <Doctor key={doctor.id} doctor={doctor} />
                         ))
                     }
                 </div>
@@ -32,7 +32,7 @@ const Doctors = ({ data }) => {
             {
                 !showAllDoctors && (
                     <button onClick={handleViewAllDoctors}
-                        className='btn btn-primary font-medium text-lg px-5 bg-[#176AE5] text-[#FFFFFF] rounded-3xl'>
+                        className='btn btn-primary font-medium text-lg px-6 bg-[#176AE5] text-[#FFFFFF] rounded-3xl'>
                         View All Doctors
                     </button>
                 )

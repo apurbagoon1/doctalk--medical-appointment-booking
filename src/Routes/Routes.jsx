@@ -5,6 +5,7 @@ import {
 import Root from '../Pages/Root/Root';
 import Error from '../Pages/Error/Error';
 import Home from '../Pages/Home/Home';
+import Details from '../Pages/Details/Details';
 
 export const router = createBrowserRouter([
     {
@@ -15,9 +16,17 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 loader: () => fetch("doctors.json"),
-                path: "/",
+                path: '/',
                 Component: Home,
-            }
+            },
+
+            {
+                path: '/details/:id',
+                loader: () => fetch("./doctors.json"),
+                Component: Details,
+            },
+
+
         ]
     },
 ]);

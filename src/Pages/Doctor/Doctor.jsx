@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Doctor = ({ doctor }) => {
-    console.log(doctor);
     return (
         <div className='bg-white rounded-2xl shadow-md p-6'>
             <div>
@@ -17,11 +17,12 @@ const Doctor = ({ doctor }) => {
             </div>
             <div className="w-full h-px my-3 bg-[repeating-linear-gradient(to_right,#0F0F0F30_0,#0F0F0F30_8px,transparent_8px,transparent_16px)]"></div>
             <div className='flex justify-center items-center gap-2 mb-3'>
-                <span className='border opacity-70 rounded-full text-sm px-1.5'>R</span>
+                <span className='border opacity-70 rounded-full text-xs px-1'>R</span>
                 <p className='font-medium text-lg opacity-70'>Reg No: {doctor.registration_number}</p>
             </div>
-
-            <button class="btn btn-outline w-full text-center rounded-3xl border-[#176AE5] font-semibold text-xl text-[#176AE5] hover:bg-[#176AE5] hover:text-white">View Details</button>
+            <Link to = {`/details/${doctor.id}`}>
+                <button class="btn btn-outline w-full text-center rounded-3xl border-[#176AE5] font-semibold text-xl text-[#176AE5] hover:bg-[#176AE5] hover:text-white">View Details</button>
+            </Link>
         </div>
     );
 };

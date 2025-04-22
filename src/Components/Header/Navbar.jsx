@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '../../assets/images/logo.png'
+import { Link } from 'react-router';
 
 const Navbar = () => {
     const links = <>
-        <li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Home</li>
-        <li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">My-Bookings</li>
-        <li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Blogs</li>
-        <li className="font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li>
+        <Link to = '/'><li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Home</li></Link>
+        <Link to = ''><li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">My-Bookings</li></Link>
+        <Link to = ''><li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Blogs</li></Link>
+        <Link to = ''><li className="font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li></Link>        
     </>
     const linksDropdown = <>
         <li className="m-2 opacity-70 cursor-pointer hover:text-[#176AE5]">Home</li>
