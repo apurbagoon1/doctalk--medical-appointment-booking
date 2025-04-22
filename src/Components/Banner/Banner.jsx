@@ -4,10 +4,10 @@ import Banner2 from '../../assets/images/banner-img-2.jpg'
 
 const Banner = () => {
     return (
-        <div className='mx-10 border-3 border-white rounded-3xl bg-gradient-to-b from-[#EFEFEF] to-[#FFFFFF] py-10 text-center mb-8'>
-            <div className='max-w-5xl mx-auto space-y-4'>
+        <div className='mx-12 border-3 border-white rounded-3xl bg-gradient-to-b from-[#EFEFEF] to-[#FFFFFF] py-10 text-center mb-8'>
+            <div className='max-w-6xl mx-auto space-y-4'>
                 <h1 className='font-extrabold text-5xl leading-14'>Dependable Care, Backed by Trusted Professionals.</h1>
-                <p className='font-medium opacity-80'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
+                <p className='font-medium text-lg opacity-80'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
             </div>
 
             <div className='flex gap-4 my-6 items-center justify-center'>
