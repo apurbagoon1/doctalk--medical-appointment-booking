@@ -1,0 +1,147 @@
+[
+    {
+      "image": "https://i.ibb.co.com/qPBFc1X/Doctor-1.jpg",
+      "name": "Dr. Ayesha Rahman",
+      "education": "MBBS, FCPS (Medicine)",
+      "speciality": "Internal Medicine",
+      "experience": "10 years",
+      "registration_number": "BMDC123456",
+      "designation": "Consultant Physician",
+      "workplace": "City Hospital, Dhaka",
+      "fee": "800 BDT",
+      "availability": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/Mk4HKCDk/Doctor-2.jpg",
+      "name": "Dr. Mahmud Hasan",
+      "education": "MBBS, MS (Ortho)",
+      "speciality": "Orthopedic Surgeon",
+      "experience": "12 years",
+      "registration_number": "BMDC654321",
+      "designation": "Orthopedic Consultant",
+      "workplace": "Green Life Hospital",
+      "fee": "1000 BDT",
+      "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/YTcqhVsc/Doctor-3.jpg",
+      "name": "Dr. Farzana Karim",
+      "education": "MBBS, DGO",
+      "speciality": "Gynecology",
+      "experience": "8 years",
+      "registration_number": "BMDC112233",
+      "designation": "Gynecologist",
+      "workplace": "Ibn Sina Hospital",
+      "fee": "700 BDT",
+      "availability": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/93mLS9sb/Doctor-4.jpg",
+      "name": "Dr. Tanvir Alam",
+      "education": "MBBS, MD (Cardiology)",
+      "speciality": "Cardiologist",
+      "experience": "15 years",
+      "registration_number": "BMDC998877",
+      "designation": "Cardiac Consultant",
+      "workplace": "United Hospital",
+      "fee": "1200 BDT",
+      "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/wFLNMYzk/Doctor-5.jpg",
+      "name": "Dr. Sharmin Jahan",
+      "education": "MBBS, FCPS (Dermatology)",
+      "speciality": "Dermatologist",
+      "experience": "9 years",
+      "registration_number": "BMDC445566",
+      "designation": "Skin Specialist",
+      "workplace": "Square Hospital",
+      "fee": "900 BDT",
+      "availability": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/B2C3ymJ4/Doctor-6.jpg",
+      "name": "Dr. Abdullah Noman",
+      "education": "MBBS, MD (Neurology)",
+      "speciality": "Neurologist",
+      "experience": "13 years",
+      "registration_number": "BMDC667788",
+      "designation": "Neurology Specialist",
+      "workplace": "Apollo Hospitals",
+      "fee": "1100 BDT",
+      "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/Vp91mxtx/Doctor-7.jpg",
+      "name": "Dr. Laila Hasan",
+      "education": "MBBS, FCPS (ENT)",
+      "speciality": "ENT Specialist",
+      "experience": "7 years",
+      "registration_number": "BMDC778899",
+      "designation": "ENT Consultant",
+      "workplace": "Popular Diagnostic Center",
+      "fee": "750 BDT",
+      "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/x8PCwgw2/Doctor-8.jpg",
+      "name": "Dr. Kamal Uddin",
+      "education": "MBBS, MS (Urology)",
+      "speciality": "Urologist",
+      "experience": "11 years",
+      "registration_number": "BMDC334455",
+      "designation": "Urology Consultant",
+      "workplace": "BSMMU",
+      "fee": "1000 BDT",
+      "availability": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/vxZJHYCB/Doctor-9.jpg",
+      "name": "Dr. Nusrat Hossain",
+      "education": "MBBS, DCH",
+      "speciality": "Pediatrician",
+      "experience": "6 years",
+      "registration_number": "BMDC556677",
+      "designation": "Child Specialist",
+      "workplace": "Medinova Medical Services",
+      "fee": "650 BDT",
+      "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/RTXK5TrC/Doctor-10.jpg",
+      "name": "Dr. Ziaur Rahman",
+      "education": "MBBS, MD (Psychiatry)",
+      "speciality": "Psychiatrist",
+      "experience": "10 years",
+      "registration_number": "BMDC123789",
+      "designation": "Mental Health Consultant",
+      "workplace": "NIMH",
+      "fee": "800 BDT",
+      "availability": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/GQLPbzj5/Doctor-11.jpg",
+      "name": "Dr. Rasheda Khatun",
+      "education": "MBBS, FCPS (Ophthalmology)",
+      "speciality": "Eye Specialist",
+      "experience": "8 years",
+      "registration_number": "BMDC998822",
+      "designation": "Ophthalmologist",
+      "workplace": "Islamia Eye Hospital",
+      "fee": "700 BDT",
+      "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"]
+    },
+    {
+      "image": "https://i.ibb.co.com/JwXRWMHF/Doctor-12.jpg",
+      "name": "Dr. Nasir Uddin",
+      "education": "MBBS, MD (Nephrology)",
+      "speciality": "Nephrologist",
+      "experience": "14 years",
+      "registration_number": "BMDC776699",
+      "designation": "Kidney Specialist",
+      "workplace": "LabAid Hospital",
+      "fee": "1050 BDT",
+      "availability": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"]
+    }
+  ]
+  

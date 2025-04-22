@@ -15,7 +15,7 @@ const Banner = () => {
                 <button className='btn btn-primary font-medium text-lg bg-[#176AE5] text-[#FFFFFF] rounded-3xl'>Search Now</button>
             </div>
 
-            <div className="flex justify-center gap-6 mb-3">
+            <div className="flex justify-center gap-6 mb-2">
                 <img className='' src={Banner1} alt="" />
                 <img className='rounded-2xl' src={Banner2} alt="" />
 
