@@ -6,7 +6,6 @@ import Success from '../../Components/Success/Success';
 
 const Home = () => {
     const data = useLoaderData();
-    console.log(data)
     return (
         <div>
             <Banner></Banner>

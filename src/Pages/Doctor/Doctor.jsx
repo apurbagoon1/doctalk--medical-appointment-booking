@@ -8,8 +8,8 @@ const Doctor = ({ doctor }) => {
                 <img className='rounded-2xl' src={doctor.image} alt="" />
             </div>
             <div className='flex justify-between items-center py-4 px-1.5'>
-                <sapn className="font-medium text-sm text-[#09982F] bg-[#09982F20] border border-[#09982F30] rounded-4xl py-1.5 px-3">Available</sapn>
-                <sapn className="font-medium text-sm text-[#176AE5] bg-[#176AE520] border border-[#176AE530] rounded-4xl py-1.5 px-3">{doctor.experience} Experience</sapn>
+                <span className="font-medium text-sm text-[#09982F] bg-[#09982F20] border border-[#09982F30] rounded-4xl py-1.5 px-3">Available</span>
+                <span className="font-medium text-sm text-[#176AE5] bg-[#176AE520] border border-[#176AE530] rounded-4xl py-1.5 px-3">{doctor.experience} Experience</span>
             </div>
             <div className='space-y-2'>
                 <h5 className='font-bold text-2xl'>{doctor.name}</h5>
@@ -21,7 +21,7 @@ const Doctor = ({ doctor }) => {
                 <p className='font-medium text-lg opacity-70'>Reg No: {doctor.registration_number}</p>
             </div>
             <Link to = {`/details/${doctor.id}`}>
-                <button class="btn btn-outline w-full text-center rounded-3xl border-[#176AE5] font-semibold text-xl text-[#176AE5] hover:bg-[#176AE5] hover:text-white">View Details</button>
+                <button className="btn btn-outline w-full text-center rounded-3xl border-[#176AE5] font-semibold text-xl text-[#176AE5] hover:bg-[#176AE5] hover:text-white">View Details</button>
             </Link>
         </div>
     );

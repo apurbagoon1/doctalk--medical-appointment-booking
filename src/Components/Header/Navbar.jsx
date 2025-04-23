@@ -5,9 +5,9 @@ import { Link } from 'react-router';
 const Navbar = () => {
     const links = <>
         <Link to = '/'><li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Home</li></Link>
-        <Link to = ''><li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">My-Bookings</li></Link>
-        <Link to = ''><li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Blogs</li></Link>
-        <Link to = ''><li className="font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li></Link>        
+        <Link to = '/bookList'><li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">My-Bookings</li></Link>
+        <Link to = '/blogs'><li className="mr-12 font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Blogs</li></Link>
+        <Link to = '/contact'><li className="font-medium text-lg opacity-70 cursor-pointer hover:text-[#176AE5]">Contact Us</li></Link>        
     </>
     const linksDropdown = <>
         <li className="m-2 opacity-70 cursor-pointer hover:text-[#176AE5]">Home</li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-primary font-medium text-lg px-5 bg-[#176AE5] text-[#FFFFFF] rounded-3xl">Emergency</a>
+                <a className="btn btn-primary font-medium text-lg p-5 bg-[#176AE5] text-[#FFFFFF] rounded-3xl">Emergency</a>
             </div>
         </div>
     );
