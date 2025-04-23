@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router'; 
+import { NavLink } from 'react-router-dom'; 
 
 const Doctor = ({ doctor }) => {
     const today = new Date().toLocaleDateString('en-US', { weekday: 'long' });
@@ -29,9 +29,9 @@ const Doctor = ({ doctor }) => {
                 <span className='border opacity-70 rounded-full text-xs px-1'>R</span>
                 <p className='font-medium text-lg opacity-70'>Reg No: {doctor.registration_number}</p>
             </div>
-            <Link to={`/details/${doctor.id}`}>
+            <NavLink to={`/details/${doctor.id}`}>
                 <button className="btn btn-outline w-full text-center rounded-3xl border-[#176AE5] font-semibold text-xl text-[#176AE5] hover:bg-[#176AE5] hover:text-white">View Details</button>
-            </Link>
+            </NavLink>
         </div>
     );
 };

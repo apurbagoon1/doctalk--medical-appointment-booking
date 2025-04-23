@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData, useParams, useNavigate } from 'react-router';
+import { useLoaderData, useParams, useNavigate } from 'react-router-dom';
 import { BsPatchExclamation } from "react-icons/bs";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

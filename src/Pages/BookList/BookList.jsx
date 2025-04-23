@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLoaderData } from 'react-router';
+import { NavLink, useLoaderData } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { getBookedDoctor } from '../../utilities/addToDB';
 import NoApoinment from '../../assets/images/No-appoinment.jpg';
@@ -50,9 +50,9 @@ const BookList = () => {
                         Looks like you haven’t booked any appointments today. Browse doctors, check their availability, and book a consultation in just a few clicks.
                     </p>
 
-                    <Link to={'/'}> <button className='btn btn-primary font-medium text-lg px-6 py-5 bg-[#176AE5] text-[#FFFFFF] rounded-3xl'>
+                    <NavLink to={'/'}> <button className='btn btn-primary font-medium text-lg px-6 py-5 bg-[#176AE5] text-[#FFFFFF] rounded-3xl'>
                         Book a Doctor Now
-                    </button></Link>
+                    </button></NavLink>
                 </div>
             ) : (
                 <div className='space-y-6 mb-10'>
@@ -60,7 +60,7 @@ const BookList = () => {
                         <div key={doc.id} className='bg-white rounded-2xl shadow-md p-6 space-y-3'>
                             <h4 className='text-xl font-bold'>{doc.name}</h4>
                             <div className="flex items-center justify-between">
-                                <p className='text-lg font-medium opacity-60'>{doc.education} - {doc.designation}</p>
+                                <p className='text-lg font-medium opacity-60'>{doc.education} - {doc.speciality}</p>
                                 <p className='text-lg font-medium opacity-60'>Appointment Fee: <span className='text-[#176AE5]'>{doc.fee}</span> + Vat</p>
                             </div>
                             <div className="w-full my-3 border-b border-dashed border-[#0F0F0F30]"></div>
