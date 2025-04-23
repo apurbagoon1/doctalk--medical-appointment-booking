@@ -13,7 +13,7 @@ const BookList = () => {
         const convertedBookedDoctors = bookedDoctorData.map(id => parseInt(id));
         const myBookList = data.filter(doctor => convertedBookedDoctors.includes(doctor.id));
         setBookList(myBookList);
-    }, []);
+    }, [data]);
 
     const handleCancelAppointment = (id, name) => {
         const bookedDoctorData = JSON.parse(localStorage.getItem("bookList")) || [];

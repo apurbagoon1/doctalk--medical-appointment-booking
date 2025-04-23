@@ -12,7 +12,7 @@ const Banner = () => {
 
             <div className='flex gap-4 my-6 items-center justify-center'>
                 <input className='bg-white px-5 py-2 w-2/5 rounded-3xl border border-gray-200' type="text" name="" id="" placeholder='Search any doctor...'/>
-                <button className='btn btn-primary font-medium text-lg bg-[#176AE5] text-[#FFFFFF] rounded-3xl'>Search Now</button>
+                <button className='btn btn-primary font-medium px-5 text-lg bg-[#176AE5] text-[#FFFFFF] rounded-3xl'>Search Now</button>
             </div>
 
             <div className="flex justify-center gap-6 mb-2">
