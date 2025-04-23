@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Navbar from '../../Components/Header/Navbar';
 import { Outlet, useNavigation } from 'react-router-dom';
 import Footer from '../../Components/Footer/Footer';
@@ -17,7 +17,15 @@ const Root = () => {
             )}
 
             <Navbar />
-            <Outlet />
+
+            <Suspense fallback={
+                <div className="text-center my-10">
+                    <span className="loading loading-dots loading-lg text-[#176AE5]"></span>
+                </div>
+            }>
+                <Outlet />
+            </Suspense>
+
             <ToastContainer position="top-center" autoClose={3000} />
             <Footer />
         </div>

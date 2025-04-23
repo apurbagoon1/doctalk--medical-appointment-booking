@@ -7,8 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Details = () => {
     const { id } = useParams();
     const docId = parseInt(id);
-    const data = useLoaderData();
-    const singleDoctor = data.find(doctor => doctor.id === docId);
+    const singleDoctor = useLoaderData();
     const navigate = useNavigate();
 
     const todayName = new Date().toLocaleString('en-us', { weekday: 'long' });

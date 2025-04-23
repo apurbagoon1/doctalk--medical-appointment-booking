@@ -24,14 +24,29 @@ export const router = createBrowserRouter([
 
             {
                 path: '/bookList',
-                loader: () => fetch("doctors.json"),
+                loader: async () => {
+                  const res = await fetch("/doctors.json");
+                  if (!res.ok) {
+                    throw new Response("Failed to load doctors", { status: 500 });
+                  }
+                  return res.json();
+                },
                 Component: BookList
-
             },
 
             {
                 path: '/details/:id',
-                loader: () => fetch("doctors.json"),
+                loader: async ({ params }) => {
+                    const res = await fetch("/doctors.json");
+                    const doctors = await res.json();
+                    const doctor = doctors.find(doc => doc.id === parseInt(params.id));
+
+                    if (!doctor) {
+                        throw new Response("Not Found", { status: 404 });
+                    }
+
+                    return doctor;
+                },
                 Component: Details,
             },
 
