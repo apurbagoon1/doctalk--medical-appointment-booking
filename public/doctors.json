@@ -36,7 +36,7 @@
       "designation": "Gynecologist",
       "workplace": "Ibn Sina Medical College Hospital",
       "fee": "700 BDT",
-      "availability": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+      "availability": ["Sunday", "Monday", "Tuesday", "Thursday"]
     },
     {
       "id": 4,
