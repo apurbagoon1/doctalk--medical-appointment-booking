@@ -20,29 +20,29 @@ const Success = () => {
                     Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.
                 </p>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 py-8">
-                <div className='bg-white shadow-xl rounded-2xl space-y-4 py-12 text-center'>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 py-10">
+                <div className='bg-white shadow-lg hover:shadow-2xl rounded-2xl space-y-4 py-10 text-center'>
                     <img className='mx-auto' src={success1} alt="" />
                     <h1 className='font-bold text-5xl'>
                         {inView && <CountUp end={199} duration={4} />}+
                     </h1>
                     <p className='font-medium text-xl opacity-60'>Total Doctors</p>
                 </div>
-                <div className='bg-white shadow-xl rounded-2xl space-y-4 py-12 text-center'>
+                <div className='bg-white shadow-lg hover:shadow-2xl rounded-2xl space-y-4 py-10 text-center'>
                     <img className='mx-auto' src={success2} alt="" />
                     <h1 className='font-bold text-5xl'>
                         {inView && <CountUp end={467} duration={4.5} />}+
                     </h1>
                     <p className='font-medium text-xl opacity-60'>Total Reviews</p>
                 </div>
-                <div className='bg-white shadow-xl rounded-2xl space-y-4 py-12 text-center'>
+                <div className='bg-white shadow-lg hover:shadow-2xl rounded-2xl space-y-4 py-10 text-center'>
                     <img className='mx-auto' src={success3} alt="" />
                     <h1 className='font-bold text-5xl'>
                         {inView && <CountUp end={1900} duration={5} />}+
                     </h1>
                     <p className='font-medium text-xl opacity-60'>Total Patients</p>
                 </div>
-                <div className='bg-white shadow-xl rounded-2xl space-y-4 py-12 text-center'>
+                <div className='bg-white shadow-lg hover:shadow-2xl rounded-2xl space-y-4 py-10 text-center'>
                     <img className='mx-auto' src={success4} alt="" />
                     <h1 className='font-bold text-5xl'>
                         {inView && <CountUp end={300} duration={4.5} />}+

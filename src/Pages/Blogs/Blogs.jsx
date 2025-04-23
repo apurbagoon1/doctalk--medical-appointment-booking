@@ -3,12 +3,25 @@ import { FaQuestionCircle, FaCheckCircle } from 'react-icons/fa';
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
+    const [loading, setLoading] = useState(true); 
 
     useEffect(() => {
+        setLoading(true); 
         fetch('/blogs.json')
             .then(res => res.json())
-            .then(data => setBlogs(data));
+            .then(data => {
+                setBlogs(data);
+                setLoading(false); 
+            });
     }, []);
+
+    if (loading) {
+        return (
+            <div className="flex justify-center items-center">
+                <span className="loading loading-dots loading-lg text-[#176AE5]"></span>
+            </div>
+        );
+    }
 
     return (
         <div className="max-w-7xl mx-auto px-5 mb-10">
