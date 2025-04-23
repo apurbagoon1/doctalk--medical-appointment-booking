@@ -17,19 +17,25 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                loader: () => fetch("doctors.json"),
                 path: '/',
+                loader: async () => {
+                    const res = await fetch("/doctors.json");
+                    if (!res.ok) {
+                        throw new Response("Failed to load doctors data", { status: 500 });
+                    }
+                    return res.json();
+                },
                 Component: Home,
             },
 
             {
                 path: '/bookList',
                 loader: async () => {
-                  const res = await fetch("/doctors.json");
-                  if (!res.ok) {
-                    throw new Response("Failed to load doctors", { status: 500 });
-                  }
-                  return res.json();
+                    const res = await fetch("/doctors.json");
+                    if (!res.ok) {
+                        throw new Response("Failed to load doctors", { status: 500 });
+                    }
+                    return res.json();
                 },
                 Component: BookList
             },
