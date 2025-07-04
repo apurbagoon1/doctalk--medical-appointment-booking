@@ -10,15 +10,14 @@
 
 ## 🚀 Features
 
-- 🧑‍⚕️ **Doctor Profiles** with availability indicators
-- 🔐 **Secure Appointment Booking** using `localStorage`
-- 📊 **Dynamic Charts** with `Recharts` to reflect booking/cancellation stats
-- ⚡ **Interactive UI** with Lottie animations and `Framer Motion`
-- 🎨 **Responsive Design** with TailwindCSS & DaisyUI
-- 🌗 **Dark/Light Mode Toggle**
-- 🚫 **Graceful 404 Page** and route fallback handling
-- 🔄 **Global Loading Spinner**
-- 📈 **Count Animations** with `react-countup`
+🧑‍⚕️ **Doctor Profiles** with availability indicators
+🔐 **Secure Appointment Booking** using `localStorage`
+📊 **Dynamic Charts** with `Recharts` to reflect booking/cancellation stats
+⚡ **Interactive UI** with Lottie animations and `Framer Motion`
+🎨 **Responsive Design** with TailwindCSS & DaisyUI
+🚫 **Graceful 404 Page** and route fallback handling
+🔄 **Global Loading Spinner**
+📈 **Count Animations** with `react-countup`
 
 ---
 
@@ -60,13 +59,11 @@
 git clone https://github.com/apurbagoon1/doctalk--medical-appointment-booking.git
 cd doctalk
 ```
---
 2. Install dependencies
 
 ```bash
 npm install
 ```
---
 3. Start the development server
 
 ```bash
@@ -77,17 +74,17 @@ npm run dev
 
 ## 🧪 Future Enhancements
 
-- 📅 Dynamic calendar integration
-- 📨 Email appointment reminders
-- 👨‍⚕️ Admin panel for doctors to manage schedules
-- 💬 Video consultation support
+📅 Dynamic calendar integration
+📨 Email appointment reminders
+👨‍⚕️ Admin panel for doctors to manage schedules
+💬 Video consultation support
 
 ---
 
 ## 📞 Contact
 
-- 📧 **Email**: [apurbagoon1@gmail.com](mailto:apurbagoon1@gmail.com)
-- 🔗 **LinkedIn**: [linkedin.com/in/apurbagoon1](https://www.linkedin.com/in/apurbagoon1) 
-- 🌐 **Portfolio**: [apurbagoon](https://apurbagoon.netlify.app/)  
+📧 **Email**: [apurbagoon1@gmail.com](mailto:apurbagoon1@gmail.com)
+🔗 **LinkedIn**: [linkedin.com/in/apurbagoon1](https://www.linkedin.com/in/apurbagoon1) 
+🌐 **Portfolio**: [apurbagoon](https://apurbagoon.netlify.app/)  
 
 
